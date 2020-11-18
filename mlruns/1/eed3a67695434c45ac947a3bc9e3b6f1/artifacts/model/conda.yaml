@@ -1,0 +1,9 @@
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8.3
+- pip
+- pip:
+  - pycaret==2.2.1
+name: Repair Type Classification-env

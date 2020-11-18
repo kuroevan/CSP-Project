@@ -1,0 +1,26 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.3
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+run_id: e0e3770ee75f4455add564b61a801011
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "asst_id", "type": "long"}, {"name": "product_type", "type":
+    "string"}, {"name": "contract_st", "type": "long"}, {"name": "contract_end", "type":
+    "long"}, {"name": "contact_type", "type": "string"}, {"name": "topic_category",
+    "type": "string"}, {"name": "repeat_ct", "type": "long"}, {"name": "agent_tenure_indays",
+    "type": "double"}, {"name": "contact_manager_flg", "type": "long"}, {"name": "diagnostics",
+    "type": "string"}, {"name": "repeat_parts_sent", "type": "string"}, {"name": "region",
+    "type": "string"}]'
+  outputs: null
+utc_time_created: '2020-11-18 22:37:54.463441'

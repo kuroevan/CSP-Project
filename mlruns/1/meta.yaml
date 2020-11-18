@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/evang/Documents/Dell%20Project/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Repair Type Classification

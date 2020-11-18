@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/evang/Documents/Dell%20Project/mlruns/1/8de3e39a075148bf9bc47a2be4b8b735/artifacts
+end_time: 1605676361918
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 8de3e39a075148bf9bc47a2be4b8b735
+run_uuid: 8de3e39a075148bf9bc47a2be4b8b735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1605676361381
+status: 3
+tags: []
+user_id: evang
